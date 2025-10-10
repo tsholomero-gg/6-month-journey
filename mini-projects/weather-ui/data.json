@@ -1,0 +1,202 @@
+{
+  "new york": {
+    "name": "New York",
+    "country": "United States",
+    "temp": 22,
+    "feels": 22,
+    "humidity": 55,
+    "wind": 3.2,
+    "description": "Partly cloudy",
+    "icon": "⛅"
+  },
+  "london": {
+    "name": "London",
+    "country": "United Kingdom",
+    "temp": 18,
+    "feels": 17,
+    "humidity": 70,
+    "wind": 4.5,
+    "description": "Overcast",
+    "icon": "☁️"
+  },
+  "paris": {
+    "name": "Paris",
+    "country": "France",
+    "temp": 21,
+    "feels": 20,
+    "humidity": 60,
+    "wind": 3.0,
+    "description": "Clear sky",
+    "icon": "☀️"
+  },
+  "tokyo": {
+    "name": "Tokyo",
+    "country": "Japan",
+    "temp": 26,
+    "feels": 28,
+    "humidity": 75,
+    "wind": 2.8,
+    "description": "Humid and sunny",
+    "icon": "🌤️"
+  },
+  "delhi": {
+    "name": "Delhi",
+    "country": "India",
+    "temp": 34,
+    "feels": 37,
+    "humidity": 50,
+    "wind": 2.2,
+    "description": "Hot and sunny",
+    "icon": "☀️"
+  },
+  "mumbai": {
+    "name": "Mumbai",
+    "country": "India",
+    "temp": 30,
+    "feels": 33,
+    "humidity": 80,
+    "wind": 3.1,
+    "description": "Humid with light rain",
+    "icon": "🌧️"
+  },
+  "beijing": {
+    "name": "Beijing",
+    "country": "China",
+    "temp": 25,
+    "feels": 26,
+    "humidity": 60,
+    "wind": 4.0,
+    "description": "Smoky haze",
+    "icon": "🌫️"
+  },
+  "sydney": {
+    "name": "Sydney",
+    "country": "Australia",
+    "temp": 23,
+    "feels": 24,
+    "humidity": 58,
+    "wind": 5.0,
+    "description": "Breezy and sunny",
+    "icon": "🌞"
+  },
+  "toronto": {
+    "name": "Toronto",
+    "country": "Canada",
+    "temp": 19,
+    "feels": 18,
+    "humidity": 68,
+    "wind": 4.8,
+    "description": "Partly cloudy",
+    "icon": "⛅"
+  },
+  "los angeles": {
+    "name": "Los Angeles",
+    "country": "United States",
+    "temp": 27,
+    "feels": 28,
+    "humidity": 50,
+    "wind": 3.5,
+    "description": "Sunny and warm",
+    "icon": "☀️"
+  },
+  "moscow": {
+    "name": "Moscow",
+    "country": "Russia",
+    "temp": 14,
+    "feels": 13,
+    "humidity": 72,
+    "wind": 2.9,
+    "description": "Cool and cloudy",
+    "icon": "☁️"
+  },
+  "berlin": {
+    "name": "Berlin",
+    "country": "Germany",
+    "temp": 17,
+    "feels": 16,
+    "humidity": 65,
+    "wind": 3.7,
+    "description": "Light drizzle",
+    "icon": "🌦️"
+  },
+  "rome": {
+    "name": "Rome",
+    "country": "Italy",
+    "temp": 24,
+    "feels": 25,
+    "humidity": 55,
+    "wind": 2.6,
+    "description": "Clear and pleasant",
+    "icon": "🌤️"
+  },
+  "dubai": {
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "temp": 38,
+    "feels": 41,
+    "humidity": 45,
+    "wind": 2.1,
+    "description": "Hot and dry",
+    "icon": "🔥"
+  },
+  "singapore": {
+    "name": "Singapore",
+    "country": "Singapore",
+    "temp": 31,
+    "feels": 35,
+    "humidity": 82,
+    "wind": 2.9,
+    "description": "Humid and cloudy",
+    "icon": "🌦️"
+  },
+  "cairo": {
+    "name": "Cairo",
+    "country": "Egypt",
+    "temp": 33,
+    "feels": 36,
+    "humidity": 40,
+    "wind": 3.3,
+    "description": "Hot and sunny",
+    "icon": "☀️"
+  },
+  "istanbul": {
+    "name": "Istanbul",
+    "country": "Turkey",
+    "temp": 20,
+    "feels": 20,
+    "humidity": 65,
+    "wind": 4.1,
+    "description": "Windy and clear",
+    "icon": "🌬️"
+  },
+  "seoul": {
+    "name": "Seoul",
+    "country": "South Korea",
+    "temp": 24,
+    "feels": 25,
+    "humidity": 68,
+    "wind": 3.8,
+    "description": "Mild and cloudy",
+    "icon": "☁️"
+  },
+  "buenos aires": {
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "temp": 19,
+    "feels": 19,
+    "humidity": 60,
+    "wind": 3.4,
+    "description": "Cool breeze",
+    "icon": "🌤️"
+  },
+  "cape town": {
+    "name": "Cape Town",
+    "country": "South Africa",
+    "temp": 17,
+    "feels": 17,
+    "humidity": 64,
+    "wind": 5.2,
+    "description": "Windy and clear",
+    "icon": "🌬️"
+  }
+}

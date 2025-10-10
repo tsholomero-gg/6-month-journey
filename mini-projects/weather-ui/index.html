@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1" />
+        <title>Simple Weather UI</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <main class="weather-app" role="main">
+            <header class="header">
+                <h1>WeatherPeek (With Mock-data)</h1>
+                <p class="sub">Type a city name and press <strong>Get Weather</strong></p>
+            </header>
+
+            <section class="search">
+                <form id="search-form" aria-label="Search city weather">
+                    <input id="city-input" type="text" required aria-required="true" />
+                    <button id="get-weather" type="submit">Get Weather</button>
+                </form>
+            </section>
+
+            <p id="output"></p>
+
+            <!-- Weather card: hidden until we have data--> 
+             <section id="card" class="card hidden" aria-live="polite">
+                <div class="card-top">
+                    <div class="location">
+                        <h2 id="city-name">City</h2>
+                        <small id="country">Country</small>
+                    </div>
+
+                    <div class="current">
+                        <div class="temp">
+                            <span id="temp">--</span><sup>&deg;C</sup> <!-- In keyboard - °C = (Alt+0176)-->
+                        </div>
+                        <div class="icon" id="icon" aria-hidden="true"></div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <p id="description">Clear sky</p>
+                </div>
+
+                <div class="details">
+                    <div>Feels: <span id="feels">--</span>°C</div>
+                    <div>Humidity: <span id="humidity">--</span>%</div>
+                    <div>Wind: <span id="wind">--</span>m/s</div>
+                </div>
+             </section>
+
+            <!-- Error message area -->
+            <section id="error" class="error hidden" role="status"></section>
+
+            <div class="available-cities">
+                <button id="showCitiesBtn">📍 See available city names</button>
+                <div id="cityList" class="hidden">
+                    <button id="closeListBtn" class="close-btn">✖ Close</button>
+                    <ul id="cityNames"></ul>
+                </div>
+            </div>
+
+            <footer class="small muted">
+                Mock data - demo only. Later replace with a real API.
+            </footer>
+        </main>
+
+            <script src="script.js" defer></script>
+    </body>
+</html>
