@@ -90,3 +90,82 @@ input {
   width: 150px;
   margin-top: 10px;
 }
+
+/* 🌐 Universal Safe Responsive Block */
+@media (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+
+  body {
+    margin: 0;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Text scaling */
+  h1, h2, h3 {
+    font-size: clamp(1.2rem, 5vw, 1.6rem);
+  }
+
+  p, span, label {
+    font-size: clamp(0.9rem, 4vw, 1rem);
+  }
+
+  /* ✅ Buttons & inputs always visible */
+  button, input {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 6px 0;
+    min-width: 120px;
+    max-width: 100%;
+    display: inline-block;
+  }
+
+  /* Prevent hidden overlap */
+  .hidden {
+    display: none !important;
+  }
+
+  /* Containers auto-stack and center */
+  .container, main, section, footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* If flex, stack vertically on small screens */
+  .flex, .row, .buttons, .controls {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  /* Timer display or digital screens */
+  .display {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0;
+    word-wrap: break-word;
+  }
+
+  /* Prevent footer or elements from overlap */
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+
+
+
